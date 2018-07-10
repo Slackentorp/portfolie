@@ -1,0 +1,40 @@
+hr.code-light,
+hr.code-dark {
+  max-width: 15rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+hr.code-light:after,
+hr.code-dark:after {
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+  padding: 0 0.25em;
+  content: '\f121';
+  font-family: FontAwesome;
+  font-size: 2em;
+}
+
+hr.code-light {
+  border-color: #fff;
+}
+
+hr.code-light:after {
+  color: #fff;
+  background-color: #CC3333;
+}
+
+hr.code-dark {
+    border-color: #560d0d;
+  }
+  
+  hr.code-dark:after {
+    color: #560d0d;
+    background-color: white;
+  }
+  
